@@ -1,0 +1,59 @@
+.text_transform_uppercase{
+    text-transform: uppercase;
+ }
+
+.text_transform_lowercase{
+    text-transform: lowercase;
+}
+.text_transform_capitalize{
+    text-transform: capitalize;
+}
+
+
+.t_center{
+    text-align: center;
+}
+.t_right{
+
+    text-align: right;
+}
+.t_left{
+    text-align:left;
+}
+
+
+
+.t_decor_overline{
+    text-decoration: overline;
+}
+.t_decor_linethrough{
+    text-decoration: line-through;
+}
+.t_decor_underline{
+    text-decoration: underline line-through overline;
+}
+
+.t_indent{
+    text-indent:150px;
+}
+.t_letter_space{
+    letter-spacing:10px;
+}
+.t_word_space{
+    word-spacing:30px;
+}
+.t_line_height{
+    line-height:300px;
+}
+
+
+.t_shadow_h_v{
+    color:blueviolet;
+    text-shadow: 2px 2px 5px, 3px 3px black;
+}
+
+.t_shadow{
+    color: green;
+    text-shadow: 2px 2px 10px red;
+
+}
