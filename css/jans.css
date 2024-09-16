@@ -10,6 +10,7 @@
 }
 
 
+
 .t_center{
     text-align: center;
 }
@@ -33,6 +34,8 @@
     text-decoration: underline line-through overline;
 }
 
+
+
 .t_indent{
     text-indent:150px;
 }
@@ -45,6 +48,7 @@
 .t_line_height{
     line-height:300px;
 }
+
 
 
 .t_shadow_h_v{
