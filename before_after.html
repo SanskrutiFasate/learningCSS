@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before-After</title>
+    <style>
+        .bf_af{
+            background-color: pink;
+            color: black;
+            font-size: 50px;
+        }
+        .bf_af::after{
+            content:"\21E8";
+            background-color: brown;
+            color: blanchedalmond;
+        }
+        .bf_af::before{
+            content:"\21E6";
+            background-color: brown;
+            color: blanchedalmond;
+        }
+        .bf_af::before{
+            content:"\21E7";
+            background-color: darkgoldenrod;
+            color: blanchedalmond;
+            margin-right: 10px;
+        }
+        li{
+            list-style: none;
+        }
+        .button{
+            border-radius: 4px;
+            background-color: tomato;
+            color: white;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 20px;
+        }
+        .button div{
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+        /*.button div::after{
+            content: "\00bb";
+            position:absolute;
+            right: -20px;
+            transition: 0.5s; 
+        } */
+        .button:hover div{
+            padding-right:25px;
+        }
+        .button:hover div:after{
+           /* padding-right:25px;*/
+            position: absolute;
+            right: -20px;
+            transition: 0.5s;
+            content: "\00bb";
+            opacity: 1;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="bf_af">This is Sanskruti</div>
+      <ul>
+        <li class="bf_af">Mumbai</li>
+        <li class="bf_af">Pune</li>
+        <li class="bf_af">Nagpur</li>
+        <li class="bf_af">Yavatmal</li>
+      </ul>
+      <button class="button"></div>Hover</div></button>
+</body>
+</html>
